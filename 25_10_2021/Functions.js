@@ -59,16 +59,16 @@
 //     return arr.filter((item, index) => arr.indexOf(item) === index).sort((a, b) => a - b)
 //   }
 
-// function removeDuplicates(arr){
-//     arr.sort((a,b) => a-b);
-//     let res = [arr[0]];
-//     for (let i = 0; i < arr.length-1; i++) {
-//     if (arr[i] != arr[i+1]) {
-//     res.push(arr[i+1])
-//         }
-//     }
-//     return res;
-//     }
+function removeDuplicates(arr){
+    arr.sort((a,b) => a-b);
+    let res = [arr[0]];
+    for (let i = 0; i < arr.length-1; i++) {
+    if (arr[i] != arr[i+1]) {
+    res.push(arr[i+1])
+        }
+    }
+    return res;
+    }
 
 
 // function removeDuplicates(array) { 
