@@ -71,15 +71,15 @@ function removeDuplicates(arr){
     }
 
 
-// function removeDuplicates(array) { 
-//     array.sort((a, b) => a - b);
-//    for(let i = 0; i < array.length; i++) {
-//        if (array[i] === array[i + 1]) {
-//            array.splice(i, 1);
-//            i--
-//        }
-//    } return array
-// }
+function removeDuplicates(array) {
+    array.sort((a, b) => a - b);
+   for(let i = 0; i < array.length; i++) {
+       if (array[i] === array[i + 1]) {
+           array.splice(i, 1);
+           i--
+       }
+   } return array
+}
 
 // function removeDuplicates(array) { 
 //     array.sort((a, b) => a - b);
